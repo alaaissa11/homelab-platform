@@ -1,0 +1,24 @@
+# OpenTofu
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+
+# Ansible
+*.retry
+inventory.ini
+
+# Secrets
+*.pem
+*.key
+secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
