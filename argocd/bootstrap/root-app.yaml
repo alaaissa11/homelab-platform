@@ -11,6 +11,8 @@ spec:
     repoURL: https://github.com/alaaissa11/homelab-platform.git
     targetRevision: main
     path: argocd/infrastructure
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
